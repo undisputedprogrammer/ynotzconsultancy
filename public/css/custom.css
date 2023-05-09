@@ -1,0 +1,144 @@
+body{
+    color: #282943;
+}
+.btn-blue{
+    background-color: #1976BC;
+}
+
+.text-blue{
+    color: #1976BC;
+}
+
+.bg-deep-blue{
+    background-color: #003E6C;
+}
+
+.bg-gray-blue{
+    background-color: #003E6C;
+}
+
+.box-shadow{
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+[x-cloak]
+{
+    display: none !important;
+}
+
+.text-red{
+    color: red;
+}
+
+.bg-hr{
+    background-image: url('../images/home/services/hr.png');
+}
+
+
+
+
+.img{
+    max-width: 50%;
+height: auto;
+}
+
+.section{
+    --v-offset: 60px;
+    --curve-height: 30px;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .bg-gray{
+
+    background-color: #F9F9F9;
+  }
+
+  .text-default{
+    color: #282943;
+  }
+
+
+
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .text-medium{
+    font-size: 17px;
+    line-height: 1.8rem;
+  }
+
+  .text-small{
+    font-size: 15px;
+    line-height: 1.7rem;
+  }
+
+  .lh-sm{
+    line-height: 1.5rem;
+  }
+
+  .text-gray{
+    color: #5F606C;
+  }
+
+  .centered-y{
+
+
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+
+
+
+@media(min-width:1024px){
+    .lh-75{
+        line-height: 75px;
+      }
+
+      .centered-x {
+
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+      .lh-lg{
+        line-height: 2.25rem;
+      }
+
+      .lh-md{
+        line-height: 1.5rem;
+      }
+
+      .bg-gray-lg{
+        background-color: #F9F9F9;
+      }
+
+      .text-big-lg{
+        font-size: 2.1rem;
+        line-height: 2.7rem;
+      }
+
+      .text-medium-lg{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+      }
+
+}
+
+@media(min-width:1024px){
+
+
+
+}

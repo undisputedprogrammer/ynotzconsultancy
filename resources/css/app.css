@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"font-satoshibold";
+
+    src: url("../../public/fonts/Satoshi-Bold.otf") format("truetype");
+  }
+
+@font-face {
+    font-family:"font-satoshimedium";
+
+    src: url("../../public/fonts/Satoshi-Medium.otf") format("truetype");
+  }
+
+@font-face {
+    font-family:"font-satoshiregular";
+
+    src: url("../../public/fonts/Satoshi-Regular.otf") format("truetype");
+  }

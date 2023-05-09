@@ -1,0 +1,24 @@
+{
+  "public/fonts/Satoshi-Bold.otf": {
+    "file": "assets/Satoshi-Bold-50e4f9b7.otf",
+    "src": "public/fonts/Satoshi-Bold.otf"
+  },
+  "public/fonts/Satoshi-Medium.otf": {
+    "file": "assets/Satoshi-Medium-93330866.otf",
+    "src": "public/fonts/Satoshi-Medium.otf"
+  },
+  "public/fonts/Satoshi-Regular.otf": {
+    "file": "assets/Satoshi-Regular-711c6243.otf",
+    "src": "public/fonts/Satoshi-Regular.otf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-9541e41b.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-20106add.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
