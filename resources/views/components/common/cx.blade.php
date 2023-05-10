@@ -6,7 +6,7 @@
 <div class=" lg:w-[40%]">
 {{-- <x-main-noimg :heading="$heading" :paragraph="$paragraph"></x-main-noimg> --}}
 <div class="w-[88%] lg:w-full  mx-auto mt-10 lg:mt-20">
-    <h1 class=" lg:text-start mx-auto font-satoshiregular text-center text-xl lg:text-[2.25rem] lh-lg ">WE'RE <span class=" text-blue">SERIOUS</span> ABOUT CX</h1>
+    <h1 class=" lg:text-start mx-auto font-satoshiregular text-center text-xl lg:text-3xl xl:text-[2.25rem] lh-lg ">WE'RE <span class=" text-blue">SERIOUS</span> ABOUT CX</h1>
     <p class=" lg:text-start mx-auto font-satoshiregular text-center mt-3 text-[15px] lh-sm lg:text-[18px]">{{$paragraph}}</p>
 </div>
 </div>
@@ -20,7 +20,7 @@
         $paragraph1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque id eum dignissimos debitis sint?";
     @endphp
 
-    <x-common.cardwithicon :title="$title1" :paragraph="$paragraph1" :first="$t" :src="$src" class=" bg-blue-950 text-white"></x-cardwithicon>
+    <x-common.cardwithicon :title="$title1" :paragraph="$paragraph1" :first="$t" :src="$src" class=" text-white bg-navy"></x-cardwithicon>
     <x-common.cardwithicon :title="$title1" :paragraph="$paragraph1" :first="$f" :src="$src"></x-cardwithicon>
 
 

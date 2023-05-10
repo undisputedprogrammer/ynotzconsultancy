@@ -3,6 +3,8 @@
     {{-- page specific script --}}
     <script src="{{asset('js/home.js')}}" defer="module"></script>
 
+
+
     {{-- navbar-mobile --}}
 <x-mobile.nav></x-mobile.nav>
     {{-- navbar-mobile ends --}}

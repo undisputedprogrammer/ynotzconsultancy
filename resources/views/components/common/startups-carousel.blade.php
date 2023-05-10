@@ -1,6 +1,6 @@
 <div class=" my-7">
 
-    <swiper-container class="w-[88%] lg:w-full mx-auto lg:pr-20" init="false">
+    <swiper-container id="container2" class="w-[88%] lg:w-full mx-auto lg:pr-20" init="false">
         <swiper-slide class=" sm:ml-3">
             <div class=" relative rounded-2xl ">
 
@@ -87,7 +87,7 @@
 
     </div>
     <script>
-        const swiperEl = document.querySelector('swiper-container');
+        const swiperEl = document.getElementById('container2');
 
 
 const swiperParams = {

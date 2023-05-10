@@ -65,6 +65,10 @@ height: auto;
     color: #282943;
   }
 
+  .bg-navy{
+    background-color: #282943;
+  }
+
 
 
   .panel {
@@ -99,6 +103,31 @@ height: auto;
 
     }
 
+
+
+
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+    .slide-track {
+
+                animation: scroll 40s linear ;
+
+
+
+
+
+      }
+
+      .slide{
+        animation: scroll 40s linear ;
+      }
 
 
 
@@ -137,8 +166,4 @@ height: auto;
 
 }
 
-@media(min-width:1024px){
 
-
-
-}

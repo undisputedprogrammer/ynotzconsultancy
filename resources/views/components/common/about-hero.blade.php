@@ -25,6 +25,8 @@
 
     <x-main :heading="$heading2" :paragraph="$paragraph2"></x-main>
 
+    <x-common.office-carousel></x-common.office-carousel>
+
     <div class="w-[88%] mt-[60px] md:mt-[90px] md:w-fit bg-deep-blue rounded-xl mx-auto py-8 text-white md:flex md:items-center">
         <div class=" btn-blue w-[80%] md:w-[23%] mx-auto rounded-xl py-8 md:mx-10 md:my-6">
             <img class="rounded-full mx-auto" src="{{asset('images/people/man2.png')}}" alt="">

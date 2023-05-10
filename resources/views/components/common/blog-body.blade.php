@@ -25,4 +25,11 @@
         <h1 class="font-satoshimedium text-lg lg:text-4xl">Read our other posts</h1>
         <p class="font-satoshiregular text-[16px] lg:text-lg lh-md my-6">Developing a successful digital product is a complex process that requires choosing the right partner, applying innovative solutions, and following reliable processes.</p>
     </div>
+
+
+<div class=" lg:hidden">
+    <x-mobile.blog-carousel></x-mobile.blog-carousel>
+</div>
+
+    <x-desktop.recent-blogs></x-desktop.recent-blogs>
 </div>
