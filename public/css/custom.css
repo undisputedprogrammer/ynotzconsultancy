@@ -34,8 +34,33 @@ body{
     background-image: url('../images/home/services/hr.png');
 }
 
+.bg-op{
+    background-image: url('../images/home/services/Operation.png');
+}
 
+.bg-pr{
+    background-image: url('../images/home/services/pr.png');
+}
 
+.bg-m{
+    background-image: url('../images/home/services/m.png');
+}
+
+.bg-ba{
+    background-image: url('../images/home/services/ba.png');
+}
+
+.bg-fa{
+    background-image: url('../images/home/services/fa.png');
+}
+
+.bg-su{
+    background-image: url('../images/home/services/su.png');
+}
+
+.bg-its{
+    background-image: url('../images/home/services/its.png');
+}
 
 .img{
     max-width: 50%;
@@ -67,6 +92,10 @@ height: auto;
 
   .bg-navy{
     background-color: #282943;
+  }
+
+  .bg-dark-gray{
+    background-color: #1a517a;
   }
 
 

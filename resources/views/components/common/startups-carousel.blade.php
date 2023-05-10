@@ -6,7 +6,7 @@
 
                 <img class=" w-full aspect-[335/310] xl:aspect-[765/566]" id="1" src="{{asset('images/home/companies/1.png')}}" alt="">
                 <div class="absolute left-[20px] lg:left-[45px] xl:left-[60px] bottom-[25px] lg:bottom-[60px] xl:bottom-[70px] w-[89%] mx-auto xl:w-[70%]">
-                    <h3 class=" font-satoshiregular text-4xlx xl:text-6xl text-white">Startups</h3>
+                    <h3 class=" font-satoshiregular text-4xl xl:text-6xl text-white">Startups</h3>
                     <p class="font-satoshiregular text-base xl:text-lg  text-white my-4 xl:my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque est consequatur a, voluptate hic nemo qui impedit non aut. Iure voluptatibus ratione quas corporis ut!</p>
                     <img class=" w-10 xl:w-[4rem]" src="{{asset('icons/Arrow1.svg')}}" alt="">
                 </div>
@@ -91,6 +91,11 @@
 
 
 const swiperParams = {
+    loop:true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
   slidesPerView: 1,
   navigation: {
         nextEl: ".swiper-button-next",

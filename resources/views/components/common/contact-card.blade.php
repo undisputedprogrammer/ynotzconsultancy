@@ -1,5 +1,5 @@
 <div class="w-[88%] mt-[60px] md:mt-[90px] md:w-[94%] bg-deep-blue rounded-xl mx-auto py-8 text-white md:flex md:items-center">
-    <div class=" btn-blue w-[80%] md:w-[23%] mx-auto rounded-xl py-8 md:mx-10 md:my-6">
+    <div class=" bg-dark-gray w-[80%] md:w-[23%] mx-auto rounded-xl py-8 md:mx-10 md:my-6">
         <img class="rounded-full mx-auto" src="{{asset('images/people/man2.png')}}" alt="">
         <h3 class=" font-satoshimedium text-lg  text-center my-3">Martin Chlimelowski</h3>
         <p class=" font-satoshiregular text-sm text-center">Customer Service Expert</p>

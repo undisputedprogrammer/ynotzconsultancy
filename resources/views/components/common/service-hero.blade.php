@@ -1,5 +1,17 @@
 <x-common.service-cards.hr></x-common.service-cards.hr>
 <x-common.service-cards.op></x-common.service-cards.op>
+<x-common.service-cards.pr></x-common.service-cards.pr>
+<x-common.service-cards.m></x-common.service-cards.m>
+<x-common.service-cards.ba></x-common.service-cards.ba>
+<x-common.service-cards.fa></x-common.service-cards.fa>
+<x-common.service-cards.su></x-common.service-cards.su>
+<x-common.service-cards.its></x-common.service-cards.its>
+
+
+
+
+
+
 
 
 <div class=" w-[90%] lg:w-[84%] mx-auto mt-16 lg:mt-20 mb-10">
