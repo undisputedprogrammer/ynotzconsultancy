@@ -1,4 +1,4 @@
-<div class="bg-gray mt-16">
+<div class="bg-gray-100 mt-16 pb-[30px]">
     <div>
         <div class=" pt-16 ml-6 lg:ml-16">
             <img class="  h-[30px] " src="{{asset('images/logo.jpg')}}" alt="">
@@ -51,7 +51,7 @@
 
 
         </div>
-        <div class="mt-[70px] mb-[30px] w-[90%] mx-auto">
+        <div class="mt-[70px]  w-[90%] mx-auto">
             <p class=" font-satoshiregular text-xs text-default text-center lg:text-base">Copyright 2022. Elit massa non eros, consectetur non ac consequat in nisl mattis adipiscing tellus egestas gravido.</p>
         </div>
     </div>

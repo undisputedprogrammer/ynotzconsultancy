@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,6 +38,8 @@ Route::get('/resources', function(){
 Route::get('/blog/{id}', function(){
     return view('blog');
 });
+
+Route::get('/service/{id}', [PageController::class, 'service']);
 
 // Route::get('/test', function(){
 //     return view('test');

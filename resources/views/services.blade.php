@@ -1,5 +1,7 @@
 <x-defaultlayout>
 
+    <script src="{{asset('js/home.js')}}" defer="module"></script>
+
     <x-mobile.nav></x-mobile.nav>
     {{-- navbar-mobile ends --}}
 
@@ -25,7 +27,7 @@
 
     <div x-data="{show:'hr'}">
 
-    <x-common.tabs></x-common.tabs>
+    {{-- <x-common.tabs></x-common.tabs> --}}
 
     <x-common.service-hero></x-common.service-hero>
 

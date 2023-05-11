@@ -1,13 +1,13 @@
-<x-common.service-cards.hr></x-common.service-cards.hr>
+{{-- <x-common.service-cards.hr></x-common.service-cards.hr>
 <x-common.service-cards.op></x-common.service-cards.op>
 <x-common.service-cards.pr></x-common.service-cards.pr>
 <x-common.service-cards.m></x-common.service-cards.m>
 <x-common.service-cards.ba></x-common.service-cards.ba>
 <x-common.service-cards.fa></x-common.service-cards.fa>
 <x-common.service-cards.su></x-common.service-cards.su>
-<x-common.service-cards.its></x-common.service-cards.its>
+<x-common.service-cards.its></x-common.service-cards.its> --}}
 
-
+<x-common.services></x-common.services>
 
 
 

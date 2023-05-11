@@ -62,6 +62,10 @@ body{
     background-image: url('../images/home/services/its.png');
 }
 
+.dull{
+    filter: brightness(50%);
+}
+
 .img{
     max-width: 50%;
 height: auto;
