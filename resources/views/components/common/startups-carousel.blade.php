@@ -61,21 +61,7 @@
             </swiper-slide>
 
 
-            <swiper-slide class=" sm:ml-3">
-                <div class=" relative rounded-2xl">
 
-                    <img class=" w-full aspect-[335/310] xl:aspect-[765/566]" id="1" src="{{asset('images/home/companies/1.png')}}" alt="">
-                    <div class="absolute left-[20px] lg:left-[45px] xl:left-[60px] bottom-[25px] lg:bottom-[60px] xl:bottom-[70px] w-[89%] mx-auto xl:w-[70%]">
-                        <h3 class=" font-satoshiregular text-4xl xl:text-6xl text-white">Startups</h3>
-                        <p class="font-satoshiregular text-base  xl:text-lg text-white my-4 xl:my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque est consequatur a, voluptate hic nemo qui impedit non aut. Iure voluptatibus ratione quas corporis ut!</p>
-                        <a href="#">
-                        <img class=" w-10 xl:w-[4rem]" src="{{asset('icons/Arrow1.svg')}}" alt="">
-                        </a>
-                    </div>
-
-                </div>
-
-            </swiper-slide>
 
           </swiper-container>
           <div class=" flex w-[50%] mx-auto justify-center space-x-3 mt-10 xl:mt-12">
