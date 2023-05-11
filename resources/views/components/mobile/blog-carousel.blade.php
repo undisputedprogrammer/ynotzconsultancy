@@ -71,8 +71,8 @@
           </swiper-container>
           <div class=" flex w-[50%] mx-auto justify-center space-x-3 mt-10 xl:mt-12">
 
-            <img class=" lg:w-9" id="prev-2" src="{{asset('icons/right-chevron.svg')}}" alt="">
-          <img class="lg:w-9" id="next-2" src="{{asset('icons/left-chevron.svg')}}" alt="">
+            <img class=" lg:w-9" id="prev-2" src="{{asset('/images/icons/right-chevron.svg')}}" alt="">
+          <img class="lg:w-9" id="next-2" src="{{asset('/images/icons/left-chevron.svg')}}" alt="">
 
         </div>
 

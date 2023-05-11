@@ -26,12 +26,12 @@
             <div class=" mt-[2rem] w-[90%] lg:w-[530px]">
                 <p class=" font-satoshiregular text-sm text-default lg:text-lg">Elit massa non eros, consectetur non ac consequat in nisl mattis adipiscing tellus egestas gravido.</p>
                 <div class=" flex space-x-5 mt-3">
-                    <a href="#"><img src="{{asset('icons/messenger.svg')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('icons/facebook.svg')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('icons/git.svg')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('icons/whatsapp.svg')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('icons/spotify.svg')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('icons/instagram.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/messenger.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/facebook.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/git.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/whatsapp.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/spotify.svg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('/images/icons/instagram.svg')}}" alt=""></a>
                 </div>
             </div>
 

@@ -10,15 +10,15 @@
         <p class=" font-satoshiregular text-sm md:text-base mb-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis metus nulla. Nam a pharetra est. Ut vitae lobortis mi, condimentum efficitur urna. </p>
 
         <div class="flex mt-[1rem]">
-            <img class="" src="{{asset('icons/mail-white.svg')}}" alt="">
+            <img class="" src="{{asset('/images/icons/mail-white.svg')}}" alt="">
             <a class=" font-satoshiregular text-base mx-3 text-white" href="#">contact@ynotz.com</a>
         </div>
         <div class="flex mt-[1rem]">
-            <img class="" src="{{asset('icons/message-white.svg')}}" alt="">
+            <img class="" src="{{asset('/images/icons/message-white.svg')}}" alt="">
             <a class=" font-satoshiregular text-base mx-3 text-white" href="#">john doe</a>
         </div>
         <div class="flex mt-[1rem]">
-            <img class="" src="{{asset('icons/phone-white.svg')}}" alt="">
+            <img class="" src="{{asset('/images/icons/phone-white.svg')}}" alt="">
             <a class=" font-satoshiregular text-base mx-3 text-white" href="#">+91 7898685848</a>
         </div>
 

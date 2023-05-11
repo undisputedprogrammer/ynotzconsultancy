@@ -5,7 +5,7 @@
         }}" class=" w-[90%] mx-auto  rounded-xl ">
             <div id="accordion-1" @click="toggle()" :class="show? ' rounded-t-lg' : 'rounded-lg' " class=" bg-gray accordion flex justify-between py-[15px] lg:py-[18px] items-center" onclick="show()">
                 <h3 class=" ml-[21px] lg:pl-[17px] font-satoshimedium text-[15px] text-medium-lg ">{{$title}}</h3>
-                <img :class="show ? 'rotate-180' : '' " class="mr-[12px] lg:mr-8 px-1 py-2  bg-white rounded-full lg:h-[40px] lg:w-[40px] lg:p-3 lg:rounded-xl" src="{{asset('icons/down.svg')}}" alt="">
+                <img :class="show ? 'rotate-180' : '' " class="mr-[12px] lg:mr-8 px-1 py-2  bg-white rounded-full lg:h-[40px] lg:w-[40px] lg:p-3 lg:rounded-xl" src="{{asset('/images/icons/down.svg')}}" alt="">
 
             </div>
             <div id="panel-1" class="panel w-full mx-auto  ease-in-out">
