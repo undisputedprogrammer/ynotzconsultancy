@@ -24,7 +24,7 @@
         <div class=" lg:flex justify-between lg:mt-20">
 
             <div class=" mt-[2rem] w-[90%] lg:w-[530px]">
-                <p class=" font-satoshiregular text-sm text-default lg:text-lg">Elit massa non eros, consectetur non ac consequat in nisl mattis adipiscing tellus egestas gravido.</p>
+                <p class=" font-satoshiregular text-sm text-default lg:text-lg">Reach us through</p>
                 <div class=" flex space-x-5 mt-3">
                     <a href="#"><img src="{{asset('/images/icons/messenger.svg')}}" alt=""></a>
                     <a href="#"><img src="{{asset('/images/icons/facebook.svg')}}" alt=""></a>
@@ -36,8 +36,8 @@
             </div>
 
             <div class=" mt-[2rem] lg:mr-[3rem] xl:mr-20">
-                <h4 class=" font-satoshimedium text-[16px] lg:text-xl text-default">Subscribe to our Newsletter</h4>
-                <p class=" font-satoshiregular text-sm lg:text-base mt-3 text-default">Lorem ipsum dolor sit amet consectetur.</p>
+                <h4 class=" font-satoshimedium text-[16px] lg:text-xl text-default">Drop your E-mail ID here</h4>
+                <p class=" font-satoshiregular text-sm lg:text-base mt-3 text-default">We'll get in touch with you </p>
                 <div class=" mt-4">
                     <form class="flex space-x-3 items-center" action="">
                         <input class="h-[40px] rounded-lg font-satoshimedium lg:w-[400px]" type="email" required id="email" placeholder="Email Address">
@@ -52,7 +52,7 @@
 
         </div>
         <div class="mt-[70px]  w-[90%] mx-auto">
-            <p class=" font-satoshiregular text-xs text-default text-center lg:text-base">Copyright 2022. Elit massa non eros, consectetur non ac consequat in nisl mattis adipiscing tellus egestas gravido.</p>
+            <p class=" font-satoshiregular text-xs text-default text-center lg:text-base">© 2023 YNOTZ Consulting Private Limited</p>
         </div>
     </div>
 </div>

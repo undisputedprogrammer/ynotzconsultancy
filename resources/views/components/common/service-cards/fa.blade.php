@@ -2,9 +2,10 @@
     <div class="px-4 h-full flex flex-col justify-between mx-auto  text-center">
         <div class=" mt-12 mb-[70px] lg:mb-[95px]">
         <h3 class=" uppercase font-satoshimedium text-base lg:text-[17px] text-blue mb-3 lg:mb-5">Services</h3>
-        <h1 class="mb-4 uppercase text-4xl font-satoshiregular tracking-tight leading-none text-white md:text-5xl lg:text-[80px] ">Finance & Accounting</h1>
+        <h1 class="mb-4 uppercase text-4xl font-satoshiregular tracking-tight leading-none text-white md:text-5xl lg:text-[80px] ">Business Consulting</h1>
         </div>
-        <p class="mb-16 lg:mb-20 text-[15px] lh-sm font-satoshimedium text-gray-300 lg:text-xl sm:px-16 lg:px-48">We can create fast and cost-effective MVPs for many startup ideas or build custom e-commerce websites. If you are looking to quickly deploy and test your idea on the market or build a ecommerce platform – we have the resources to make it happen.</p>
+        <p class="mb-16 lg:mb-20 text-[15px] lh-sm font-satoshimedium text-gray-300 lg:text-xl sm:px-16 lg:px-48">With the help of our adviser, you may stop worrying about your business. We are ready to hear about your issues and make appropriate recommendations for solutions. We don't want to see you suffer in silence. Instead, by working together, we can solve your business problems.
+        </p>
 
     </div>
 </div>

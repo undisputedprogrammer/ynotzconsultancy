@@ -6,20 +6,20 @@
     </div>
 
     <div class=" w-[80%] md:w-[60%] mx-auto md:mx-10">
-        <h3 class=" font-satoshiregular text-[15px] md:text-3xl my-4 md:my-7">We're here to help you</h3>
-        <p class=" font-satoshiregular text-sm md:text-base mb-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis metus nulla. Nam a pharetra est. Ut vitae lobortis mi, condimentum efficitur urna. </p>
+        <h3 class=" font-satoshiregular text-[15px] md:text-3xl my-4 md:my-7">We're here to assist you</h3>
+        <p class=" font-satoshiregular text-sm md:text-base mb-7">Get connected right away</p>
 
         <div class="flex mt-[1rem]">
             <img class="" src="{{asset('/images/icons/mail-white.svg')}}" alt="">
-            <a class=" font-satoshiregular text-base mx-3 text-white" href="#">contact@ynotz.com</a>
+            <a class=" font-satoshiregular text-base mx-3 text-white" href="#">info@ynotzconsulting.com</a>
         </div>
-        <div class="flex mt-[1rem]">
+        {{-- <div class="flex mt-[1rem]">
             <img class="" src="{{asset('/images/icons/message-white.svg')}}" alt="">
             <a class=" font-satoshiregular text-base mx-3 text-white" href="#">john doe</a>
-        </div>
+        </div> --}}
         <div class="flex mt-[1rem]">
             <img class="" src="{{asset('/images/icons/phone-white.svg')}}" alt="">
-            <a class=" font-satoshiregular text-base mx-3 text-white" href="#">+91 7898685848</a>
+            <a class=" font-satoshiregular text-base mx-3 text-white" href="#">+91 9497344553</a>
         </div>
 
     </div>

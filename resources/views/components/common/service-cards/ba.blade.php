@@ -4,7 +4,8 @@
         <h3 class=" uppercase font-satoshimedium text-base lg:text-[17px] text-blue mb-3 lg:mb-5">Services</h3>
         <h1 class="mb-4 uppercase text-4xl font-satoshiregular tracking-tight leading-none text-white md:text-5xl lg:text-[80px] ">Buisiness Auditing</h1>
         </div>
-        <p class="mb-16 lg:mb-20 text-[15px] lh-sm font-satoshimedium text-gray-300 lg:text-xl sm:px-16 lg:px-48">We can create fast and cost-effective MVPs for many startup ideas or build custom e-commerce websites. If you are looking to quickly deploy and test your idea on the market or build a ecommerce platform – we have the resources to make it happen.</p>
+        <p class="mb-16 lg:mb-20 text-[15px] lh-sm font-satoshimedium text-gray-300 lg:text-xl sm:px-16 lg:px-48">From our business auditing reports, you can understand the strength and weaknesses of your venture. An external audit for a business is usually beneficial in identifying the flaws and limitations of the currently running system.
+        </p>
 
     </div>
 </div>

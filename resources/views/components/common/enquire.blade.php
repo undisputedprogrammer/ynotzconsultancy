@@ -5,7 +5,7 @@
         <img class=" w-[24px] lg:w-[43px]" src="{{asset('images/home/Frame-59.png')}}" alt="">
     </div>
     <h3 class=" font-satoshiregular text-[19px] my-6 text-default lg:w-[78%] lg:mx-auto text-big-lg">SCHEDULE A CALL WITH US TO FIND OUT IF WE CAN HELP YOU!</h3>
-    <p class=" font-satoshiregular text-medium text-default mb-7 lg:w-[78%] lg:mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis metus nulla. Nam a pharetra est. Ut vitae lobortis mi, condimentum efficitur urna. </p>
+    <p class=" font-satoshiregular text-medium text-default mb-7 lg:w-[78%] lg:mx-auto">Let's establish a strong bond</p>
     <div class="lg:w-[78%] lg:mx-auto">
         <x-contactinfo></x-contactinfo>
     </div>
