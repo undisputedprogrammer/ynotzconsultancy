@@ -5,7 +5,7 @@
 
     <div class="w-[88%] lg:w-[450px] xl:w-[563px] 2xl:w-[675px] centered-x mx-auto bg-white rounded-xl mt-3 lg:mt-[135px] xl:mt-[180px] 2xl:mt-[240px] shadow-md pt-5 lg:absolute">
         <h1 class="w-[82%] mx-auto font-satoshiregular text-xl lg:text-2xl xl:text-[2rem] 2xl:text-[2.4rem] lh-lg uppercase ">schedule a <span class=" text-blue">call with us</span> so that we can help you!</h1>
-        <p class="w-[82%] mx-auto font-satoshiregular mt-5 mb-10 text-sm xl:text-[16px] 2xl:text-[18px] lh-md">Let's establish a strong bond </p>
+        <p class="w-[82%] mx-auto font-satoshiregular mt-5 mb-10 text-sm xl:text-[16px] 2xl:text-[18px] lh-md">Provide your contact information to reach out and collaborate on better solutions </p>
         <hr class="w-[82%] mx-auto border-gray-200 border">
         <form class="w-[82%] mt-8 mx-auto" action="">
             <input class=" rounded-xl w-full border border-gray-200 font-satoshiregular pl-5 lg:py-[16px]" type="email" placeholder="Email" required>
@@ -32,7 +32,7 @@
             <p class=" font-satoshiregular text-sm lg:text-base">Heavenly plaze, padamugal</p>
             <p class=" font-satoshiregular text-sm lg:text-base">Kochi, kerala, India</p>
         </div>
-        <p class=" font-satoshibold text-xs lg:text-sm ">info@ynotz.com</p>
+        <p class=" font-satoshibold text-xs lg:text-sm ">info@ynotzconsulting.com</p>
     </div>
     <div class=" w-[88%] lg:w-[32%] mx-auto mt-4 lg:mt-0  bg-gray rounded-xl px-6 py-7">
         <h3 class=" font-satoshiregular text-base lg:text-lg">Email Address</h3>
@@ -40,7 +40,7 @@
             <p class=" font-satoshiregular text-sm lg:text-base">We usually reply within 24 hours</p>
             {{-- <p class=" font-satoshiregular text-sm"> hi</p> --}}
         </div>
-        <p class=" font-satoshibold text-xs lg:text-sm ">contact@ynotz.com</p>
+        <p class=" font-satoshibold text-xs lg:text-sm ">info@ynotzconsulting.com</p>
     </div>
     <div class=" w-[88%] lg:w-[32%] mx-auto my-4 lg:mb-0 lg:mt-0 bg-gray rounded-xl px-6 py-7">
         <h3 class=" font-satoshiregular text-base lg:text-lg">Call Us</h3>
@@ -48,6 +48,6 @@
             <p class=" font-satoshiregular text-sm lg:text-base">Talk to us and see how we can work together</p>
             {{-- <p class=" font-satoshiregular text-sm"> hi</p> --}}
         </div>
-        <p class=" font-satoshibold text-xs lg:text-sm ">+91 7865456323</p>
+        <p class=" font-satoshibold text-xs lg:text-sm ">+91 9497344553</p>
     </div>
 </div>

@@ -54,8 +54,8 @@
 <x-common.contact-card></x-common.contact-card>
 
 @php
-    $heading="TRUSTED BY THE BEST";
-    $paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+    $heading="Elevating your business to new heights";
+    $paragraph="Accelerating your growth.";
 @endphp
 
 <x-main-noimg :heading="$heading" :paragraph="$paragraph"></x-main-noimg>

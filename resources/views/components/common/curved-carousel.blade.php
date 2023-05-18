@@ -6,7 +6,7 @@
 
     <swiper-container id="container" class="   mx-auto slider-container " init="false">
         {{-- <div class=" absolute top-0 w-full bg-white h-[25px] lg:h-[65px] rounded-b-[50%]"> --}}
-        <swiper-slide class=" sm:ml-3">
+        <swiper-slide class=" ">
             <div class=" relative rounded-2xl ">
                 <a href="/service/1">
                 <img class="slide-image dull" src="{{asset('images/home/carousel/Hero-1.png')}}" alt="">
@@ -26,7 +26,7 @@
         </swiper-slide>
 
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
                 <div class=" relative rounded-2xl">
                     <a href="/service/8">
                     <img class="slide-image dull" src="{{asset('images/home/carousel/Hero-2.png')}}" alt="">
@@ -44,7 +44,7 @@
             </swiper-slide>
 
 
-            <swiper-slide class=" sm:ml-3">
+            <swiper-slide class=" ">
 
                 <div class=" relative rounded-2xl ">
                     <a href="/service/3">
@@ -63,7 +63,7 @@
 
             </swiper-slide>
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
 
                 <div class=" relative rounded-2xl">
                     <a href="/service/7">
@@ -83,7 +83,7 @@
             </swiper-slide>
 
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
                 <div class=" relative rounded-2xl">
                     <a href="/service/6">
                     <img class="slide-image dull" src="{{asset('images/home/carousel/Hero-6.png')}}" alt="">
@@ -98,7 +98,7 @@
                 </div>
             </swiper-slide>
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
                 <div class=" relative rounded-2xl">
                     <a href="/service/2">
                     <img class="slide-image dull" src="{{asset('images/home/carousel/operations.jpg')}}" alt="">
@@ -114,7 +114,7 @@
                 </div>
             </swiper-slide>
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
                 <div class=" relative rounded-2xl">
                     <a href="/service/5">
                     <img class="slide-image dull" src="{{asset('images/home/carousel/finance.jpg')}}" alt="">
@@ -130,7 +130,7 @@
                 </div>
             </swiper-slide>
 
-            <swiper-slide class=" sm:ml-3 ">
+            <swiper-slide class="  ">
                 <div class=" relative rounded-2xl">
                     <a href="/service/4">
                     <img class="slide-image dull" src="{{asset('images/home/carousel/auditing.jpg')}}" alt="">

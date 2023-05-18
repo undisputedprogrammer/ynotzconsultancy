@@ -5,8 +5,8 @@
         $img3="images/blogs/blog-img3.png";
         $blogtitle="What’s a small thing anyone can do to upskill?";
         $blogdescription="Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque. unde omnis iste natus error sit.";
-        $heading="READ HOW WE CHANGE THE INDUSTRY FOR GOOD";
-        $paragraph="Developing a successful digital product is a complex process that requires choosing the right partner, applying innovative solutions, and following reliable processes.";
+        $heading="BLOGS";
+        $paragraph="Enlighten yourselves before stepping into a new venture";
     @endphp
 
         <x-main-noimg :heading="$heading" :paragraph="$paragraph"></x-main-noimg>
