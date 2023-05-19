@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -27,7 +29,7 @@ Route::get('/services', function(){
     return view('services');
 });
 
-Route::get('/contact', function(){
+Route::any('/contact', function(){
     return view('contact');
 });
 
@@ -35,15 +37,11 @@ Route::get('/resources', function(){
     return view('resources');
 });
 
-Route::get('/blog/{id}', function(){
-    return view('blog');
-});
+Route::get('/blog/{id}',[BlogController::class, 'index']);
 
 Route::get('/service/{id}', [PageController::class, 'service']);
 
-// Route::get('/test', function(){
-//     return view('test');
-// });
+// Route::get('/test', [MailController::class, 'send']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

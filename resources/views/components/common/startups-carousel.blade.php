@@ -85,10 +85,10 @@
 
 const swiperParams = {
     loop:true,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: false,
+    //   },
   slidesPerView: 1,
   navigation: {
         nextEl: ".swiper-button-next",

@@ -105,7 +105,7 @@
 
 <x-main-noimg :heading="$heading" :paragraph="$paragraph"></x-main-noimg>
 
-<x-common.companies></x-common.companies>
+{{-- <x-common.companies></x-common.companies> --}}
 
     <x-common.footer></x-common.footer>
 

@@ -28,13 +28,15 @@
     @endphp
 <x-desktop.nav :ishome="$ishome" :isabout="$isabout" :isservices="$isservices" :isresources="$isresources" class="font-satoshimedium text-[14px] mr-14"></x-desktop.nav>
     {{-- desktop-navbar ends --}}
-
+    <x-sticky-whatsapp></x-sticky-whatsapp>
     {{-- hero section begins --}}
 <x-common.hero></x-common.hero>
     {{-- hero section ends --}}
 
+
+
     {{-- company logos section --}}
-<x-common.companies></x-common.companies>
+{{-- <x-common.companies></x-common.companies> --}}
     {{-- company logos section ends --}}
 
     {{-- startups section begins --}}

@@ -43,7 +43,7 @@
     </li>
     <li class="mr-2">
         <a @click.prevent="show='su'" :class="show=='su'? 'border-b-2 border-blue-600': ''" style="white-space: nowrap;" href="#" class=" font-satoshimedium inline-flex p-[15px] xl:py-[18px]   rounded-t-lg group whitespace-nowrap" aria-current="page">
-            Scaling Up
+            Branding
         </a>
     </li>
     <li class="mr-2">

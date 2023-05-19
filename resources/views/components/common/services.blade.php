@@ -87,8 +87,9 @@
             <div class="w-[90%] mx-auto md:w-[45%] lg:w-[23%] bg-white rounded-xl py-6 my-4 lg:my-3">
                 <a href="/service/6">
                 <img class="w-[80%] rounded-xl mx-auto" src="{{asset('images/home/services/scaling.png')}}" alt="">
-                <h3 class="w-[74%] mx-auto font-satoshimedium text-default text-xl lg:text-2xl mt-5 mb-2">Scaling up</h3>
-                <p class=" w-[74%] mx-auto font-satoshiregular text-default text-sm lg:text-[16px]">Expanding  your business through clear strategies
+                <h3 class="w-[74%] mx-auto font-satoshimedium text-default text-xl lg:text-2xl mt-5 mb-2">Branding</h3>
+                <p class=" w-[74%] mx-auto font-satoshiregular text-default text-sm lg:text-[16px]">Creative multmedia designs and compains for your brand.
+
                 </p>
             </a>
             </div>

@@ -38,10 +38,9 @@
     <x-common.office-carousel></x-common.office-carousel>
 
     <div class="w-[88%] mt-[60px] md:mt-[90px]  bg-deep-blue rounded-xl mx-auto py-8 text-white md:flex md:items-center">
-        <div class=" bg-dark-gray w-[80%] md:w-[23%] mx-auto rounded-xl py-8 md:mx-10 md:my-6">
-            <img class="rounded-full mx-auto" src="{{asset('/images/people/man2.png')}}" alt="">
-            <h3 class=" font-satoshimedium text-lg  text-center my-3">Martin Chlimelowski</h3>
-            <p class=" font-satoshiregular text-sm text-center">Customer Service Expert</p>
+        <div class=" bg-white w-[80%] md:w-[23%] flex items-center mx-auto rounded-full aspect-square py-8 md:mx-10 md:my-6">
+            <img class=" mx-auto w-[60%]" src="{{asset('images/ynotz consulting-02.png')}}" alt="">
+
         </div>
 
         <div class=" w-[80%] md:w-[60%] mx-auto md:mx-10">
