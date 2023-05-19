@@ -1,6 +1,8 @@
 <div class=" my-7 relative">
-    <div class=" absolute top-0 w-full bg-white h-[20px] lg:h-[65px] rounded-b-[50%] z-40"></div>
-    <div class=" absolute bottom-0 w-full bg-white h-[20px] lg:h-[65px] rounded-t-[50%] z-40"></div>
+    <img class="absolute top-0 w-full z-40" src="{{asset('images/curvebg.png')}}" alt="">
+    {{-- <div class=" absolute top-0 w-full bg-white h-[20px] lg:h-[65px] rounded-b-[50%] z-40"></div> --}}
+    {{-- <div class=" absolute bottom-0 w-full bg-white h-[20px] lg:h-[65px] rounded-t-[50%] z-40"></div> --}}
+    <img class="absolute bottom-0 w-full z-40" src="{{asset('images/curvebg_bottom.png')}}" alt="">
 
 
 
@@ -166,10 +168,10 @@ const swiperParams20 = {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-//       autoplay: {
-// delay: 3000,
-// disableOnInteraction: false
-// },
+      autoplay: {
+delay: 3000,
+disableOnInteraction: false
+},
   breakpoints: {
     640: {
       slidesPerView: 2,
