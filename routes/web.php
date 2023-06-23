@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\FormController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,16 +43,24 @@ Route::get('/blog/{id}',[BlogController::class, 'index']);
 
 Route::get('/service/{id}', [PageController::class, 'service']);
 
-// Route::get('/test', [MailController::class, 'send']);
+Route::get('/survey/{rv?}',[PageController::class,'survey']);
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::post('/survey/save',[FormController::class, 'survey']);
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+Route::get('/complete/survey',[FormController::class,'complete']);
+
+Route::get('rv/sign-up',[UserController::class, 'signup']);
+
+Route::post('rv/create', [UserController::class, 'create']);
+
+Route::get('rv/dashboard',[UserController::class, 'index']);
+
+Route::get('rv/login',[UserController::class, 'login']);
+
+Route::post('/rv/authenticate',[UserController::class, 'authenticate']);
+
+Route::get('get/sessions',[UserController::class, 'sessions']);
+
+Route::get('/rv/logout',[UserController::class,'logout']);
 
 require __DIR__.'/auth.php';

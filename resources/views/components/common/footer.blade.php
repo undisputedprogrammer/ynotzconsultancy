@@ -30,7 +30,7 @@
 
                     <a class=" w-[24px]" href="https://www.facebook.com/ynotzconsulting"><img src="{{asset('images/icons/facebook.png')}}" alt=""></a>
 
-                    <a class=" w-[24px]" href="https://wa.me/9497344553?text=Hi,%20How%20can%20we%20assist%20you"><img src="{{asset('images/icons/whatsapp(1).png')}}" alt=""></a>
+                    <a class=" w-[24px]" href="https://wa.me/9497344553?text=Hi,%20Let's%20schedule%20a%20meeting"><img src="{{asset('images/icons/whatsapp(1).png')}}" alt=""></a>
 
                     <a class=" w-[24px]" href="https://www.linkedin.com/company/ynotzconsulting"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a>
 

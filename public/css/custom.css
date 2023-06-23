@@ -9,6 +9,10 @@ body{
     color: #1976BC;
 }
 
+.no-outline{
+    outline: none;
+}
+
 .bg-deep-blue{
     background-color: #003E6C;
 }

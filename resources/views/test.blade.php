@@ -1,4 +1,4 @@
-<x-defaultlayout>
+<x-customlayout>
 
     {{-- page specific script --}}
     <script src="{{asset('js/home.js')}}" defer="module"></script>
@@ -146,4 +146,9 @@
 <x-common.curved-carousel></x-common.curved-carousel>
 
 
-</x-defaultlayout>
+<div class=" my-20">
+
+</div>
+
+
+</x-customlayout>

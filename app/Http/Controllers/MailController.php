@@ -25,7 +25,7 @@ class MailController extends Controller
         'message'=>$details['message'],
     ];
 
-        Mail::to('ali.cs.here@gmail.com')->send(new ContactMail($data));
+        Mail::to(config('credentials.to_address'))->send(new ContactMail($data));
 
         return response()->json(['Great Check your email']);
     }

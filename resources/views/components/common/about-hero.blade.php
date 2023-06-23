@@ -12,7 +12,7 @@
     <div class=" w-[89%] lg:w-[59%] mx-auto  my-12 lg:my-24">
         {{-- <h1 class="font-satoshimedium text-lg lg:text-4xl">Read our other posts</h1> --}}
 
-        <p class="font-satoshiregular text-[16px] lg:text-xl lg:leading-9 my-6">YNOTZ Consulting is a business consulting firm providing management consulting services to small and medium businesses. We are glad to extend a helping hand to those who need business solution advice to move forward.
+        <p class="font-satoshiregular text-[16px] lg:text-xl lg:leading-9 my-6">YNOTZ Consulting Private Limited is a business consulting firm providing management consulting services to small and medium businesses. We are glad to extend a helping hand to those who need business solution advice to move forward.
 
             </p>
             <p class="font-satoshiregular text-[16px] lg:text-xl lg:leading-9  mt-4 lg:mt-11">Our team has all ears for our clients. We listen, communicate and give you a better explanation from a third-party perspective. Whether your business is small or big, well established, or still struggling, our team is always flexible to discover befitting solutions for your firm. MSMEs, Startups, and other existing businesses can align with us for choosing a better path to navigate through this competitive market. A dedicated team at YNOTZ is always there for you as your most reliable partner in business.</p>

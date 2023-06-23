@@ -11,4 +11,11 @@ class PageController extends Controller
             'id'=>$id,
         ]);
     }
+
+    public function survey(Request $request){
+        // dd($request->rv);
+        return view('survey',[
+            'rv'=>$request->rv,
+        ]);
+    }
 }
