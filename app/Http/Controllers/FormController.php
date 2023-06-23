@@ -52,6 +52,13 @@ class FormController extends Controller
 
             $sm=$request['q10'];
             $jsm=json_encode($sm);
+        if($request['name']!=null){
+            $name = $request['name'];
+        }
+        else{
+            $name = "Not Specified";
+        }
+
 
 
         $survey=Survey::create([

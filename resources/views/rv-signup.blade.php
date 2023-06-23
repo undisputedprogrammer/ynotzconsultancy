@@ -25,11 +25,37 @@
 
 
     <!-- component -->
+    <div class="w-[94%] mx-auto mt-3">
+        <img class="w-full h-auto rounded-lg" src="{{asset('images/banner-resized.png')}}" alt="">
+
+    </div>
+
+    <div class="w-[94%]  rounded-lg mx-auto border-t-[10px] border border-gray-600 border-t-[#1976BC] px-3 py-3 lg:px-4 lg:py-6 my-3 xl:my-4">
+        <h1 class="sm:text-center font-satoshibold text-xl md:text-2xl 2xl:text-3xl mb-1 xl:mb-2">Research Volunteers Registration Form</h1>
+        <p class=" font-satoshiregular text-sm md:text-base 2xl:text-lg">YNOTZ Consulting Private Limited, is a business consultancy start-up based at Kakkanad, Ernakulam.</p>
+
+        <p class=" font-satoshiregular text-sm md:text-base 2xl:text-lg mt-3">
+            Our new project code named "Goodness Initiative" is an upcoming media related project with a prime objective of promoting social goodness. As part of a preliminary study regarding this project, we are conducting an online public opinion survey.
+        </p>
+
+
+        <p class=" font-satoshiregular text-sm md:text-base 2xl:text-lg mt-3">Students passionate about taking part in voluntary projects are invited to join this campaign as "Research Volunteers". We expect each Research Volunteer to get responses from 100 participants for our online survey across different age groups, class and genders. The survey is based on an online form which can be accessed on your mobile phone. Thus, volunteers can share their form links to their friends and social groups and request them to fill up the form.</p>
+
+
+        <p class=" font-satoshiregular text-sm md:text-base 2xl:text-lg mt-3">
+            Those who associate with us will get a certificate of participation and appreciation. More over, our Research Volunteers will be in our preferred list of associates in further stages of this initiative, when this project takes off commercially.
+        </p>
+
+
+        <p class=" font-satoshiregular text-sm md:text-base 2xl:text-lg mt-3">We hope to have your young enthusiastic minds along with us in this journey. You can register with us as our Research Associates using the form given below.</p>
+    </div>
+
+
 <div class="bg-grey-lighter my-16 flex flex-col w-[92%] max-w-xl mx-auto">
     <div class="container  mx-auto flex-1 flex flex-col items-center justify-center px-2">
         <form id="form" action="/rv/create" method="POST" enctype="multipart/form-data" class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
             @csrf
-            <h1 class="mb-7 text-2xl font-satoshibold text-center">Sign up</h1>
+            <h1 class="mb-7 text-2xl font-satoshibold text-center">Sign up as a Research Volunteer</h1>
             <input
                 type="text"
                 class="block border border-gray-500 w-full p-3 rounded mb-4"
@@ -37,6 +63,30 @@
                 required
                 placeholder="Full Name"
                 value="{{old('name')}}" />
+
+                <input
+                type="text"
+                class="block border border-gray-500 w-full p-3 rounded mb-4"
+                name="college"
+                required
+                placeholder="College"
+                value="{{old('college')}}" />
+
+                <input
+                type="text"
+                class="block border border-gray-500 w-full p-3 rounded mb-4"
+                name="course"
+                required
+                placeholder="Course"
+                value="{{old('course')}}" />
+
+                <input
+                type="text"
+                class="block border border-gray-500 w-full p-3 rounded mb-4"
+                name="location"
+                required
+                placeholder="Location"
+                value="{{old('location')}}" />
 
                 <input
                 type="phone"

@@ -58,7 +58,11 @@
                             @foreach ($responses as $response)
                             <tr class="border-b dark:border-neutral-500">
                                 <td class="whitespace-nowrap  px-6 py-4 font-satoshimedium">1</td>
-                                <td class="whitespace-nowrap  px-6 py-4 font-satoshimedium">{{$response['name']}}</td>
+                                <td class="whitespace-nowrap  px-6 py-4 font-satoshimedium">@if ($response['name']!=null)
+                                    {{$response['name']}}
+                                    @else
+                                    Not Specified
+                                @endif</td>
                                 <td class="whitespace-nowrap  px-6 py-4 font-satoshimedium">{{$response->created_at->format('H:i:s');}}</td>
                                 <td class="whitespace-nowrap  px-6 py-4 font-satoshimedium">{{$response['created_at']->toDateString()}}</td>
                               </tr>

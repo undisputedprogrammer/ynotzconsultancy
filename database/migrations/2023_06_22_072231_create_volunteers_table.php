@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('volunteers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('college');
+            $table->string('course');
+            $table->string('location');
             $table->string('email');
             $table->string('phone');
             $table->string('password');

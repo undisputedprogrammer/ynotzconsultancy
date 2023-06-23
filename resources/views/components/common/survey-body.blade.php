@@ -478,7 +478,7 @@
             {{-- <span class="text-red-600 font-satoshibold text-lg">*</span> --}}
         </div>
         <div class=" flex space-x-2 items-center my-2 font-satoshiregular">
-            <input type="text" name="name" required placeholder="Name" class=" border-b-2 border-gray-400 border-0 focus:outline-none focus:ring-0  transition-none ease-in-out duration-150">
+            <input type="text" name="name"  placeholder="Name" class=" border-b-2 border-gray-400 border-0 focus:outline-none focus:ring-0  transition-none ease-in-out duration-150">
         </div>
 
 
@@ -498,7 +498,7 @@
             {{-- <span class="text-red-600 font-satoshibold text-lg">*</span> --}}
         </div>
         <div class=" flex space-x-2 items-center my-2 font-satoshiregular">
-            <input type="email" name="email" required placeholder="Email ID" class=" border-b-2 border-gray-400 border-0 focus:outline-none focus:ring-0">
+            <input type="email" name="email"  placeholder="Email ID" class=" border-b-2 border-gray-400 border-0 focus:outline-none focus:ring-0">
         </div>
 
 

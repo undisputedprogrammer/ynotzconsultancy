@@ -22,6 +22,9 @@ class UserController extends Controller
 
         $volunteer=Volunteer::create([
             'name'=>$request['name'],
+            'college'=>$request['college'],
+            'course'=>$request['course'],
+            'location'=>$request['location'],
             'email'=>$request['email'],
             'phone'=>$request['phone'],
             'password'=>$password,
