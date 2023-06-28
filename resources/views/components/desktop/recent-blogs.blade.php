@@ -1,3 +1,4 @@
+@props(['recents'])
 <div class=" hidden lg:flex">
     @php
     $img1="/images/blogs/blog-img1.png";
@@ -10,16 +11,23 @@
     $blogtitle3=array('id'=>3,'title'=>"3 Central Government Schemes for Medium and Small Enterprises");
     $blogdescription3="Funding is a prime dilemma in small and medium businesses. In this revolutionary era of 'Make in India', the central government provides many schemes for initializing and upgrading MSMEs. ";
     @endphp
-    <div class=" w-[89%] mx-auto md:flex md:flex-wrap md:justify-evenly md:mt-6">
-        <a href="/blog/1">
-            <x-blog :img="$img1" :title="$blogtitle" :description="$blogdescription"></x-blog>
-        </a>
-        <a href="/blog/2">
+    <div class=" w-[89%] mx-auto md:flex md:flex-wrap @if (count($recents)<2)
+        md:justify-center
+        @else
+        md:justify-evenly
+    @endif  md:mt-6">
+        @foreach ($recents as $recent)
+            <a href="/blog/{{$recent['id']}}">
+                <x-blog :recent="$recent"></x-blog>
+            </a>
+        @endforeach
+
+        {{-- <a href="/blog/2">
             <x-blog :img="$img2" :title="$blogtitle2" :description="$blogdescription2"></x-blog>
         </a>
         <a href="/blog/3">
             <x-blog :img="$img3" :title="$blogtitle3" :description="$blogdescription3"></x-blog>
-        </a>
+        </a> --}}
 
 
     </div>

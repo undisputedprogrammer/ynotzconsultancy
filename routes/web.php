@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
@@ -19,9 +20,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [MainController::class, 'home']);
 
 Route::get('/about', function(){
     return view('about');
@@ -35,11 +34,17 @@ Route::any('/contact', function(){
     return view('contact');
 });
 
-Route::get('/resources', function(){
-    return view('resources');
-});
+Route::get('/resources', [MainController::class, 'resources']);
+
+Route::get('/blog/new/upload',[BlogController::class, 'upload'])->middleware('auth');
 
 Route::get('/blog/{id}',[BlogController::class, 'index']);
+
+Route::get('/blog/edit/{id}',[BlogController::class, 'edit'])->middleware('auth');
+
+Route::post('/blog/save/{id}',[BlogController::class, 'save'])->middleware('auth');
+
+Route::get('/blog/delete/{id}',[BlogController::class, 'destroy'])->middleware('auth');
 
 Route::get('/service/{id}', [PageController::class, 'service']);
 
@@ -62,5 +67,7 @@ Route::post('/rv/authenticate',[UserController::class, 'authenticate']);
 Route::get('get/sessions',[UserController::class, 'sessions']);
 
 Route::get('/rv/logout',[UserController::class,'logout']);
+
+Route::post('/blog/new/create',[BlogController::class,'create'])->middleware('auth');
 
 require __DIR__.'/auth.php';

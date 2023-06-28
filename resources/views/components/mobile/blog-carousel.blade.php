@@ -1,3 +1,4 @@
+@props(['recents'])
 <div class=" my-2">
 
     @php
@@ -12,7 +13,31 @@
     $blogdescription3="Funding is a prime dilemma in small and medium businesses. In this revolutionary era of 'Make in India', the central government provides many schemes for initializing and upgrading MSMEs. ";
     @endphp
     <swiper-container id="swiper-2" class="w-[88%] lg:w-full mx-auto lg:pr-20" init="false">
+        @foreach ($recents as $recent)
         <swiper-slide class=" sm:ml-3">
+
+            <div class="bg-gray rounded-2xl p-3 lg:p-5 mt-10 md:w-[43%] lg:w-[32%]">
+                <a href="/blog/{{$recent['id']}}" aria-label="Article">
+                    <img src="/storage/images/{{$recent['image']}}" class=" w-full aspect-video  rounded-2xl mx-auto object-cover" alt="">
+                <div class="mx-auto">
+                  <p class="my-3 text-xs  font-satoshiregular text-gray-600 uppercase">
+                    @php
+                        $date = date_format($recent['created_at'],"d  M  Y ");
+                    @endphp
+                    {{$date}}
+                  </p>
+                  <p class="text-lg lg:text-xl leading-5 font-satoshimedium">{{$recent['title']}}</p>
+                  <p class=" text-default font-satoshiregular text-sm lg:text-base line-clamp-2">
+                    {{$recent['description']}}
+                  </p>
+
+                </div>
+            </a>
+            </div>
+
+        </swiper-slide>
+        @endforeach
+        {{-- <swiper-slide class=" sm:ml-3">
 
             <div class="bg-gray rounded-2xl p-3 lg:p-5 mt-10 md:w-[43%] lg:w-[32%]">
                 <a href="/blog/1" aria-label="Article">
@@ -71,7 +96,7 @@
                 </div>
 
 
-            </swiper-slide>
+            </swiper-slide> --}}
 
 
 

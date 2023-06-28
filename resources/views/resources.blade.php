@@ -27,7 +27,7 @@
 <x-desktop.nav :ishome="$ishome" :isabout="$isabout" :isservices="$isservices" :isresources="$isresources" class="font-satoshimedium text-[14px] mr-14"></x-desktop.nav>
     {{-- desktop-navbar ends --}}
 
-    <x-common.resource-body></x-common.resource-body>
+    <x-common.resource-body :blogs="$blogs" :recents="$recents"></x-common.resource-body>
 
     <x-common.footer></x-common.footer>
 </x-defaultlayout>

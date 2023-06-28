@@ -52,7 +52,7 @@
 
 <x-common.cx></x-common.cx>
 
-<x-common.recent-blogs></x-common.recent-blogs>
+<x-common.recent-blogs :recents="$recents"></x-common.recent-blogs>
 
     {{-- enquiry section --}}
 <x-common.enquire></x-common.enquire>

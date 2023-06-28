@@ -33,9 +33,16 @@
 
     </div> --}}
 
-    <x-main :heading="$heading2" :paragraph="$paragraph2"></x-main>
 
-    <x-common.office-carousel></x-common.office-carousel>
+
+    {{-- office carousel currently hidden --}}
+
+    {{-- <x-main :heading="$heading2" :paragraph="$paragraph2"></x-main> --}}
+
+    {{-- <x-common.office-carousel></x-common.office-carousel> --}}
+
+
+
 
     <div class="w-[88%] mt-[60px] md:mt-[90px]  bg-deep-blue rounded-xl mx-auto py-8 text-white md:flex md:items-center">
         <div class=" bg-white w-[80%] md:w-[23%] flex items-center mx-auto rounded-full aspect-square py-8 md:mx-10 md:my-6">

@@ -1,11 +1,19 @@
+@props(['recents'])
+@if ($recents!=null)
+
+@if (count($recents)>2)
+
+
+
+
 <div class=" my-7">
     @php
-        $heading="BLOGS";
+        $heading="RECENT BLOGS";
         $paragraph="Enlighten yourselves before stepping into a new venture";
     @endphp
     <x-main-noimg :heading="$heading" :paragraph="$paragraph"></x-main-noimg>
     <div class=" lg:hidden">
-    <x-mobile.blog-carousel></x-mobile.blog-carousel>
+    <x-mobile.blog-carousel :recents="$recents"></x-mobile.blog-carousel>
     </div>
 
     <div class=" hidden lg:flex">
@@ -21,18 +29,26 @@
         $blogdescription3="Funding is a prime dilemma in small and medium businesses. In this revolutionary era of 'Make in India', the central government provides many schemes for initializing and upgrading MSMEs. According to the Ministry of MSMEs classification, an Enterprise can classify as a Micro, Small, or Medium Enterprise based on the following criteria, namely,";
         @endphp
         <div class=" w-[89%] mx-auto md:flex md:flex-wrap md:justify-evenly md:mt-6">
-            <a href="/blog/1">
-                <x-blog :img="$img1" :title="$blogtitle" :description="$blogdescription"></x-blog>
-            </a>
-            <a href="/blog/2">
+
+            @foreach ($recents as $recent)
+                <a href="/blog/{{$recent['id']}}">
+                    <x-blog :recent="$recent"></x-blog>
+                </a>
+            @endforeach
+
+            {{-- <a href="/blog/2">
                 <x-blog :img="$img2" :title="$blogtitle2" :description="$blogdescription2"></x-blog>
             </a>
             <a href="/blog/3">
                 <x-blog :img="$img3" :title="$blogtitle3" :description="$blogdescription3"></x-blog>
-            </a>
+            </a> --}}
 
 
         </div>
     </div>
 
 </div>
+
+@endif
+
+@endif

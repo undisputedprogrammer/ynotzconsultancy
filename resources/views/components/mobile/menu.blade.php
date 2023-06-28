@@ -10,7 +10,7 @@
         <a {{ $attributes->class([ 'text-blue' => $home]) }} class=" " href="/">HOME</a>
         <a {{ $attributes->class(['text-blue' => $about]) }} class=" " href="/about">ABOUT</a>
         <a {{ $attributes->class(['text-blue' => $services]) }} class=" " href="/services">SERVICES</a>
-        <a {{ $attributes->class(['text-blue' => $resources]) }} class=" " href="/resources">RESOURCES</a>
+        <a {{ $attributes->class(['text-blue' => $resources]) }} class=" " href="/resources">BLOGS</a>
     </div>
     <a class="h-[34px] w-[104px] text-white btn-blue text-center font-satoshimedium py-[6px] text-[14px] rounded-xl ml-11 mb-[45px]" href="/contact">CONTACT</a>
 </div>
